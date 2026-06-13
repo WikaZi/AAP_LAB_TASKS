@@ -19,3 +19,7 @@ __pycache__/
 
 # Duże zbiory danych
 otomoto_offers_eng_23-04-2023.csv
+
+# Hadoop i pliki Sparka
+hadoop/
+
