@@ -1,0 +1,42 @@
+{
+  "contract": "imdb_train_2000",
+  "timestamp": "2026-06-25T15:07:31.295964Z",
+  "dataset_rows": 2000,
+  "rules": {
+    "no_nulls": {
+      "passed": true,
+      "severity": "error",
+      "details": "Brak NULL (2000 wierszy)"
+    },
+    "labels_in_set": {
+      "passed": true,
+      "severity": "error",
+      "details": "Wszystkie etykiety w {0, 1}"
+    },
+    "min_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "min word_count OK (min=12)"
+    },
+    "max_word_count": {
+      "passed": true,
+      "severity": "warning",
+      "details": "max word_count OK (max=1005)"
+    },
+    "no_duplicates": {
+      "passed": true,
+      "severity": "error",
+      "details": "Brak duplikatów"
+    },
+    "class_balance": {
+      "passed": true,
+      "severity": "warning",
+      "details": "Stosunek klas = 1.000"
+    },
+    "no_html_tags": {
+      "passed": false,
+      "severity": "warning",
+      "details": "1189 recenzji zawiera znaczniki HTML"
+    }
+  }
+}
